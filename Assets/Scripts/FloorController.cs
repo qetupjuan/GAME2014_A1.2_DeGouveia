@@ -6,8 +6,8 @@ public class FloorController : MonoBehaviour
 {
     public float verticalSpeed;
     public float verticalBoundary;
+    public Material material;
 
-    // Update is called once per frame
     void Update()
     {
         _Move();
@@ -22,6 +22,7 @@ public class FloorController : MonoBehaviour
     private void _Move()
     {
         transform.position -= new Vector3(0.0f, verticalSpeed) * Time.deltaTime;
+        material.color = Random.ColorHSV();
     }
 
     private void _CheckBounds()

@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5191937689024738767}
   - component: {fileID: 7014816911976608212}
+  - component: {fileID: 1560502295}
   m_Layer: 0
   m_Name: Horns
   m_TagString: Untagged
@@ -109,7 +110,7 @@ Transform:
   m_GameObject: {fileID: 8078441632770947558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.9, y: -0.18, z: 0}
-  m_LocalScale: {x: 5.3904, y: 4.566, z: 3}
+  m_LocalScale: {x: 10, y: 10, z: 3}
   m_Children:
   - {fileID: 459994676472537521}
   m_Father: {fileID: 0}
@@ -167,3 +168,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1560502295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8078441632770947558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac20485a8536b144598a3719d9b5303b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalSpeed: 4
+  verticalBoundary: 20
+  material: {fileID: 0}
